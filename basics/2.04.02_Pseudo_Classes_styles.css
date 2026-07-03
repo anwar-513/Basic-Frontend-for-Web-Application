@@ -1,0 +1,50 @@
+h1 {
+    color: rgb(5, 5, 92);
+    background-color: rgb(65, 156, 22);
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+h4 {
+    color: rgb(1, 1, 57);
+    background-color: rgb(255, 251, 43);
+    padding: 10px;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    height: fit-content;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.description {
+    color: rgb(1, 1, 57);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: wavy;
+}
+
+.classes {
+    background-color: rgb(240, 238, 122);
+    color: rgb(4, 4, 99);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-decoration: wavy;
+    width: fit-content;
+    height: fit-content;
+}
+
+.list {
+    background-color: rgb(77, 231, 205);
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-decoration: wavy;
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 30px;
+}
