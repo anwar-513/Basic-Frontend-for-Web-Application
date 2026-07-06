@@ -1,0 +1,62 @@
+body {
+    padding: 2px;
+    background-color: rgb(248, 255, 143);
+}
+
+.heading-area {
+    background-color: rgb(192, 200, 87);
+    text-align: center;
+}
+
+.heading {
+    padding: 20px;
+    font-size: 60px;
+    color: rgb(2, 2, 4);
+}
+
+.description {
+    padding: 55px;
+    background-color: rgb(229, 246, 40);
+    border: 2px solid black;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.text {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.header {
+    grid-area: nav-header;
+    padding: 10px;
+    background-color: rgb(255, 243, 12);
+}
+
+.page-body {
+    height: 300px;
+    padding: 10px;
+    grid-area: main-body;
+    background-color: rgb(143, 136, 7);
+}
+
+.side-bar {
+    padding: 10px;
+    grid-area: side-bar;
+    background-color: rgb(103, 100, 44);
+}
+
+.footer {
+    grid-area: footer;
+    padding: 10px;
+    background-color: rgb(255, 243, 12);
+}
+
+.my-page {
+    display: grid;
+    grid-template-areas: "nav-header nav-header nav-header nav-header"
+        "main-body main-body . side-bar"
+        "main-body main-body . side-bar "
+        "footer footer footer footer";
+}
