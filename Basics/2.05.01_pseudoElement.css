@@ -1,0 +1,55 @@
+body {
+    padding: 2px;
+    background-color: rgb(183, 219, 219);
+}
+
+.heading-area {
+    padding: 20px;
+    background-color: rgb(1, 79, 79);
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(120, 251, 251)
+}
+
+.main-heading {
+    text-shadow: black;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.main-heading::after {
+    content: "⭕";
+}
+
+
+.description {
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(2, 105, 105);
+    height: 350px;
+    border: dashed 2px rgb(0, 35, 35);
+    border-radius: 10%;
+}
+
+.text {
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aqua;
+}
+
+.text::after {
+    content: "❦";
+    font-size: 100px;
+    display: block;
+    text-align: center;
+}
+
+.description::after {
+    content: "🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥";
+    font-size: 70px;
+    text-align: center;
+}
