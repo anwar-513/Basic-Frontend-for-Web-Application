@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.04.02_Pseudo_Classes_styles.css">
+    <title>CSS Pseudo Classes</title>
+</head>
+
+<body>
+
+    <div class="division-1">
+        <h1 class="title">CSS Pseudo Classes</h1>
+        <h4 class="subtitle">Selecting elements based on UI state</h4>
+        <p class="description">Pseudo classes are used to define the special state of an element. For example, it can be
+            used to style an element when a user mouses over it, or when a link is visited.</p>
+        <p class="description">Pseudo classes are used in CSS selectors to style elements based on their state or
+            position
+            in the document tree. They are preceded by a colon (:) and can be used to target elements that are not
+            easily
+            selectable through regular selectors.</p>
+
+        <h2>
+            There are several commonly used pseudo classes in CSS, including:
+        </h2>
+        <ol class="list">
+            <li>1. Elemental Pseudo Classes</li>
+            <li>2. Elemental Display State Pseudo Classes</li>
+            <li>3. Input Pseudo Classes</li>
+            <li>4. Linguistic Pseudo Classes</li>
+            <li>5. Location Pseudo Classes</li>
+            <li>6. Time-dimentional Pseudo Classes</li>
+            <li>7. Tree-Structural Pseudo Classes</li>
+            <li>8. Shadow-Structural Pseudo Classes</li>
+            <li>9. User-action Pseudo Classes</li>
+            <li>10. Functional Pseudo Classes</li>
+            <li>11. Custom State Pseudo Classes</li>
+            <li>12. Page Pseudo Classes</li>
+            <li>13. View Transition Pseudo Classes</li>
+        </ol>
+    </div>
+
+    <h4> Here are the explanations for each type:</h4>
+
+    <div class="types">
+        <h2 class="classes">1. Elemental Pseudo Classes</h2>
+        <p class="description">Elemental pseudo classes are used to select elements based on their type or position
+            in the document tree. Some commonly used elemental pseudo classes include:</p>
+        <ul class="list">
+            <li>:defined, matches any element that is defined with a custom element definition.</li>
+            <li>:heading, matches any element that is a heading element (h1, h2, h3, h4, h5, h6).</li>
+        </ul>
+
+        <h2 class="classes">2. Elemental Display State Pseudo Classes</h2>
+        <p class="description">Elemental display state pseudo classes are used to select elements based on their display
+            state. Some commonly used elemental display state pseudo classes include:</p>
+        <ul class="list">
+            <li>:open, matches any element that is open (e.g., a <details> element).</li>
+            <li>:popover-open, matches any element that is open as a popover, or currently on the showing state.</li>
+            <li>:model, Matches an element that is in a state in which it excludes all interaction with elements outside
+                it until the interaction has been dismissed.</li>
+            <li>:fullscreen, matches any element that is in fullscreen mode.</li>
+        </ul>
+
+        <h2 class="classes">3. Input Pseudo Classes</h2>
+        <p class="description">Input pseudo classes are used to select form elements based on their state. Some commonly
+            used input pseudo classes include:</p>
+        <ul class="list">
+            <li>:enabled, matches any form element that is enabled.</li>
+            <li>:disabled, matches any form element that is disabled.</li>
+            <li>:read-only, Represents any element that cannot be changed by the user.</li>
+            <li>:read-write, Represents any element that can be changed by the user.</li>
+            <li>:user-valid, Represents any element that has user input that is valid.</li>
+            <li>:user-invalid, Represents any element that has user input that is invalid.</li>
+            <li>:required, Represents any element that has the `required` attribute specified.</li>
+            <li>:optional, Represents any element that does not have the `required` attribute specified.</li>
+        </ul>
+
+        <h2 class="classes">4. Linguistic Pseudo Classes</h2>
+        <p class="description">Linguistic pseudo classes are used to select elements based on their language or text
+            direction. Some commonly used linguistic pseudo classes include:</p>
+        <ul class="list">
+            <li>:lang, matches any element that has a specific language attribute.</li>
+            <li>:dir, matches any element that has a specific text direction attribute.</li>
+        </ul>
+
+        <h2 class="classes">5. Location Pseudo Classes</h2>
+        <p class="description">Location pseudo classes are used to select elements based on their location in the
+            document tree. Some commonly used location pseudo classes include:</p>
+        <ul class="list">
+            <li>:any-link, matches any element that is a link.</li>
+            <li>:link, matches any element that is an unvisited link.</li>
+            <li>:visited, matches any element that is a visited link.</li>
+            <li>:local-link, matches any element that is a link to the same origin.</li>
+            <li>:target, matches any element that is the target of a fragment identifier in the URL.</li>
+            <li>:scope, matches any element that is the root of the current document or the root of a shadow tree.</li>
+        </ul>
+
+        <h2 class="classes">6. Time-dimentional Pseudo Classes</h2>
+        <p class="description">Time-dimentional pseudo classes are used to select elements based on their temporal
+            state. Some commonly used time-dimentional pseudo classes include:</p>
+        <ul class="list">
+            <li>:current, matches any element that is the current element in a time-based context.</li>
+            <li>:past, matches any element that is in the past in a time-based context.</li>
+            <li>:future, matches any element that is in the future in a time-based context.</li>
+
+        </ul>
+
+        <h2 class="classes">7. Tree-Structural Pseudo Classes</h2>
+        <p class="description">Tree-structural pseudo classes are used to select elements based on their position in the
+            document tree. Some commonly used tree-structural pseudo classes include:</p>
+        <ul class="list">
+            <li>:first-child, matches any element that is the first child of its parent.</li>
+            <li>:last-child, matches any element that is the last child of its parent.</li>
+            <li>:nth-child(n), matches any element that is the nth child of its parent.</li>
+            <li>:nth-last-child(n), matches any element that is the nth child of its parent, counting from the end.</li>
+            <li>:only-child, matches any element that is the only child of its parent.</li>
+            <li>:only-of-type, matches any element that is the only child of its parent with the same element type.</li>
+        </ul>
+
+        <h2 class="classes">8. Shadow-Structural Pseudo Classes</h2>
+        <p class="description">Shadow-structural pseudo classes are used to select elements based on their position in
+            the shadow tree. Some commonly used shadow-structural pseudo classes include:</p>
+        <ul class="list">
+            <li>:host, matches the host element of a shadow tree.</li>
+            <li>:host(), matches the host element of a shadow tree when a specific condition is met.</li>
+            <li>:host-context(), matches the host element of a shadow tree when a specific condition is met.</li>
+            <li>:has-slotted, matches any element that has slotted content.</li>
+        </ul>
+
+        <h2 class="classes">9. User-action Pseudo Classes</h2>
+        <p class="description">User-action pseudo classes are used to select elements based on user interactions. Some
+            commonly used user-action pseudo classes include:</p>
+        <ul class="list">
+            <li>:hover, matches any element that is being hovered over.</li>
+            <li>:active, matches any element that is currently being activated.</li>
+            <li>:focus, matches any element that has focus.</li>
+            <li>:focus-within, matches any element that has focus or contains an element that has focus.</li>
+            <li>:focus-visible, matches any element that has focus and the user agent determines that the element should
+                receive focus visibility.</li>
+            <li>:target-current, matches any element that is the current target of the document.</li>
+        </ul>
+
+        <h2 class="classes">10. Functional Pseudo Classes</h2>
+        <p class="description">Functional pseudo classes are used to select elements based on specific conditions. Some
+            commonly used functional pseudo classes include:</p>
+        <ul class="list">
+            <li>:not(), matches any element that does not match a specific selector.</li>
+            <li>:is(), matches any element that matches a specific selector.</li>
+            <li>:where(), matches any element that matches a specific selector, but with lower specificity.</li>
+            <li>:has(), matches any element that has a specific descendant.</li>
+        </ul>
+
+        <h2 class="classes">11. Custom State Pseudo Classes</h2>
+        <p class="description">Custom state pseudo classes are used to select elements based on custom states defined by
+            the user. Some commonly used custom state pseudo classes include:</p>
+        <ul class="list">
+            <li>:state(), matches any element that has a specific custom state.</li>
+        </ul>
+
+        <h2 class="classes">12. Page Pseudo Classes</h2>
+        <p class="description">Page pseudo classes are used to select elements based on their position in a paged media
+            context. Some commonly used page pseudo classes include:</p>
+        <ul class="list">
+            <li>:first, matches the first page in a paged media context.</li>
+            <li>:left, matches any page that is positioned on the left side in a paged media context.</li>
+            <li>:right, matches any page that is positioned on the right side in a paged media context.</li>
+            <li>:blank, matches any page that is blank in a paged media context.</li>
+        </ul>
+
+        <h2 class="classes">13. View Transition Pseudo Classes</h2>
+        <p class="description">View transition pseudo classes are used to select elements based on their state during a
+            view transition. Some commonly used view transition pseudo classes include:</p>
+        <ul class="list">
+            <li>:active-view-transition, matches any element that is currently undergoing a view transition.</li>
+            <li>:active-view-transition-type, matches any element that is currently undergoing a view transition.</li>
+        </ul>
+
+    </div>
+
+
+</body>
+
+</html>
