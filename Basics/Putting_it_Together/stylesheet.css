@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+.brand {
+    font-size: 65px;
+    font-family: Impact, Haettenschweiler;
+    font-weight: normal;
+    text-align: center;
+}
+
+.brand-area {
+    grid-area: header;
+}
+
+.navigations {
+    grid-area: nav;
+}
+
+.news-1 {
+    grid-area: news-1;
+}
+
+.news-2 {
+    grid-area: news-2;
+}
+
+.news-3 {
+    grid-area: news-3;
+}
+
+.news-4 {
+    grid-area: news-4;
+}
+
+.news-5 {
+    grid-area: news-5;
+}
+
+.news-6 {
+    grid-area: news-6;
+}
+
+
+.news-7 {
+    grid-area: news-7;
+}
+
+.page {
+
+    border: 3px solid #000000;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "news-1 new-6 news-3"
+        "news-1 news-7 news-4"
+        "news-5 news-2 news-2"
+}
+
+.article {
+    border: #000000 2px solid;
+}
+
+.new-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+    max-height: 250px;
+}
+
+.text {
+    padding: 10px;
+}
+
+.navigations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border: 3px solid black;
+    margin: 0;
+    padding: 30px;
+}
+
+.point {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
+}
+
+.point:hover {
+    color: #3d3d3d;
+    text-decoration: underline;
+}
