@@ -1,1 +1,0 @@
-"just a file for practicing the git command" 
