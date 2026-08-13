@@ -8,31 +8,43 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="body">
+    <div class="navigation-bar ">
+        <a href="index.html" class="nav-ba"><span>Go Home</span></a>
+        <a href="form.html" class="nav-ba"><span>Enroll Now</span></a>
+    </div>
+    <div class="heading-area">
+        <h1 class="main-heading">Enrollment Form</h1>
+        <h2 class="sub-heading">We're excited to have you join our community of learners!</h2>
+        <h3 class="words-of-encourage">Please fill out the form below to enroll.</h3>
+    </div>
 
 
-    <h1 class="form-heading">Enrollment Form</h1>
-    <h2 class="form-sub-heading">Please fill out the form below to enroll in your desired course.</h2>
-    <h3 class="words-of-encourage">We're excited to have you join our community of learners!</h3>
-    <form class="form">
+
+    <form class="form" action="#" method="post">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="Name" required>
+        <input type="text" id="name" placeholder="Name" required>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Email" required>
+        <input type="email" id="email" placeholder="Email" required>
 
         <label for="phone">Phone:</label>
-        <input type="number" id="phone" name="phone" placeholder="Phone number" required>
+        <input type="tel" id="phone" placeholder="Phone number" required>
 
-        <label for="course">Course:</label>
-        <select id="course" name="course" required>
-            <option value="">Select a course</option>
-            <option value="web-development">Web Development</option>
-            <option value="data-science">Data Science</option>
-            <option value="digital-marketing">Digital Marketing</option>
-        </select>
+        <section class="filter">
+            <label for="gender"> Gender: </label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+        </section>
 
-        <button type="submit">Enroll Now</button>
+        <label for="age">Age: </label>
+        <input type="number" id="age" placeholder="age" required>
+
+
+        <a href="catalog.html" class="submit enroll">Enroll</a>
+
     </form>
 </body>
 
