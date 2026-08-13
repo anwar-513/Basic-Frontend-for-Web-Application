@@ -1,0 +1,54 @@
+body {
+    padding: 2px;
+    background-color: rgb(170, 170, 205);
+}
+
+.heading-area {
+    background-color: rgb(93, 93, 174);
+    text-align: center;
+}
+
+.heading {
+    padding: 20px;
+    font-size: 60px;
+    color: rgb(2, 2, 4);
+}
+
+.description {
+    padding: 55px;
+    background-color: rgb(120, 120, 181);
+    border: 2px solid black;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.text {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.boxes {
+    padding: 5px;
+    background-color: rgb(132, 132, 240);
+    border: 4px dashed black;
+}
+
+.box {
+    background-color: blue;
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+    border: solid darkblue 2px;
+    border-radius: 5%;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+

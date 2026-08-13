@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-point=1.0">
+    <link href="2.09.02_the_CSS_project.css" rel="stylesheet">
+    <link rel="icon" href="coffe.png" type="png">
+    <title>The Coffe</title>
+</head>
+
+<body>
+    <nav class="main-navigation">
+        <h1 class="brand">
+            <img class="logo-image" src="coffee logo.jfif" alt="logo">
+            The Coffe Jar
+        </h1>
+    </nav>
+
+    <div class="page">
+        <section class="items box">
+            <h2 class="box-title">
+                ITEMS
+            </h2>
+            <ul class="items">
+                <li class="item">
+                    <div class="item-quantity">1</div>
+                    <div class="item-name">Espresso</div>
+                    <div class="item-price">$200</div>
+                    <ul class="option-list">
+                        <li class="option">Single Espresso</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="item-quantity">1</div>
+                    <div class="item-name">Americano</div>
+                    <div class="item-price">$220</div>
+                    <ul class="option-list">
+                        <li class="option">Cafe latte</li>
+                        <li class="option">Flat White</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="item-quantity">2</div>
+                    <div class="item-name">Cappuccino</div>
+                    <div class="item-price">$120</div>
+                    <ul class="option-list">
+                        <li class="option">Light Milk</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="client box">
+            <h2 class="box-title">
+                CUSTUMER
+            </h2>
+            <div class="input-section">
+                <label class="user-input-label" for="name">Customer Name</label>
+                <input type="text" class="user-input" id="name">
+
+                <label class="user-input-label" for="card-number">Card Number</label>
+                <input type="number" class="user-input" id="card-number">
+
+                <label class="user-input-label" for="ccv-number">CCV Number</label>
+                <input type="number" class="user-input short-input" id="ccv-number">
+            </div>
+        </section>
+
+        <section class="total box">
+            <h2 class="box-title">
+                BILL
+            </h2>
+
+            <table class="totals-table">
+                <tbody>
+                    <tr>
+                        <td>Subtotal:</td>
+                        <td>$540</td>
+                    </tr>
+                    <tr>
+                        <td>Tax:</td>
+                        <td>$008</td>
+                    </tr>
+                    <tr class="total-final">
+                        <td>Total: </td>
+                        <td>$548</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button class="place-order" type="button">Place Order</button>
+        </section>
+    </div>
+</body>
+
+</html>

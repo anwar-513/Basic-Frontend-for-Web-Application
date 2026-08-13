@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.03.01_Cascades_styles.css">
+</head>
+
+<body>
+
+    <div class="div cascading">
+        <h1 id="topic1" class="heading1">
+            Cascading
+        </h1>
+        <h3 class="heading3">
+            The order of precedence in which styles are applied to elements
+        </h3>
+    </div>
+
+    <div>
+        <p class="paragraph1">
+            Cascading is a fundamental concept in CSS that determines how styles are applied to elements when multiple
+            rules target the same element.It is the layer or origin that take the priority of when declaration in more
+            than
+            one origin, cascade layers
+            or scope set a value for a property of an element. The cascade takes into account the specificity of
+            selectors,
+            the order of
+            rules, and the importance of declarations to determine which styles are ultimately applied.
+        </p>
+    </div>
+
+
+    <div>
+        <h4 class="heading4">
+            The cascade follows these principles:
+        </h4>
+        <ul class="list">
+            <li>Inline styles have the highest priority and override any other styles.</li>
+            <li>Styles defined in external or internal stylesheets are applied based on their order of appearance.</li>
+            <li>More specific selectors take precedence over less specific ones.</li>
+            <li>When selectors have equal specificity, the last defined rule takes precedence.</li>
+        </ul>
+    </div>
+
+    <div class="types">
+        <h1 class="heading1 types-heading">
+            Origin Types
+        </h1>
+        <h4 class="heading4">
+            For the detemination of correct target for CSS property, the cascade job is to select the declaration.
+        </h4>
+
+        <ol class="list origin-list">
+            <li>User-agent Stylesheet</li>
+            <li>User Stylesheet</li>
+            <li>Author Stylesheet</li>
+        </ol>
+
+        <h2 class="heading2">
+            User-agent Stylesheet
+        </h2>
+        <p class="paragraph2">
+            The user-agent stylesheet is default stylesheet by the browsers like chrome, firefox. For example, bold and
+            larger the size of h1 tags, or giving margins to the body.
+        </p>
+
+        <h2 class="heading2">
+            User Stylesheet
+        </h2>
+        <p class="paragraph2">
+            The user stylesheet, also called user-defined style sheet is depend on users wishes that how he/she want to
+            see
+            the page.
+            For example, fix all the text-size to 18 or larger to see it well.
+        </p>
+
+        <h2 class="heading2">
+            Author Stylesheet
+        </h2>
+        <p class="paragraph2">
+            Author Stylesheet is the most common type of sheets. It is define by the developers. The
+            author/web-developers
+            define the style for the document of a given web-page or application, using one or more linked stylesheets.
+        </p>
+    </div>
+
+    <div class="types">
+        <h1 class="heading1 types-heading">
+            Cascade Layers
+        </h1>
+        <h4 class="heading4">
+            The CSS feature to group and order the styles rules.
+        </h4>
+        <p class="paragraph2">
+            Cascade layers are a feature in CSS that allows developers to group and order style rules based on their
+            importance and specificity. By using cascade layers, developers can create a more organized and maintainable
+            stylesheet, making it easier to manage styles for complex web applications.
+        </p>
+    </div>
+</body>
+
+</html>

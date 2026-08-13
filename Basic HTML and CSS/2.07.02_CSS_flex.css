@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(215, 227, 196);
+    padding: 2px;
+}
+
+
+.heading {
+    padding: 20px;
+    justify-items: center;
+    margin-left: 550px;
+    background-color: rgb(57, 93, 3);
+    width: fit-content;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(87, 245, 245);
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.xub-heading {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(128, 185, 235);
+}
+
+
+
+.description {
+    padding: 10px;
+    background-color: yellowgreen;
+    border: 3px solid black;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.box-1 {
+    width: 200px;
+    height: 100px;
+    border: solid black 2px;
+    background-color: rgb(158, 245, 18);
+}
+
+.box-2 {
+    width: 100px;
+    height: 200px;
+    border: solid black 2px;
+    background-color: rgb(102, 165, 0);
+}
+
+.box-3 {
+    width: 200px;
+    height: 150px;
+    border: solid black 2px;
+    background-color: rgb(78, 125, 3);
+}
+
+.flex-container {
+    padding: 30px;
+    display: flex;
+}
+
+
+.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.jc-right {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+
+}
+
+.jc-center {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.no-height {
+    height: unset;
+}
