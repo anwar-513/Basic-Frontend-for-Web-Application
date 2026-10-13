@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="Full Name" name="fullName" />
+      <input type="submit" placeholder="Submit" />
+    </form>
+
+    <form>
+      <div>
+        <input type="text" placeholder="Full Name" name="fullName" />
+        <input type="password" placeholder="password" name="password" />
+      </div>
+
+      <div>
+        Favorite Color? 
+        <input type="radio" name="color" value="red" /> Red
+        <input type="radio" name="color" value="green" /> Green
+        <input type="radio" name="color" value="yellow" /> Yellow
+        <input type="radio" name="color" value="other" /> Other
+      </div>
+
+      <div>
+        <input name="province" list="provinces" placeholder="Province" />
+        <datalist id="provinces">
+          <option value="Punjab"></option>
+          <option value="Sindh"></option>
+          <option value="Khyber Pakhtunkhwa"></option>
+          <option value="Balochistan"></option>
+        </datalist>
+      </div>
+    </form>
+  </body>
+</html>
